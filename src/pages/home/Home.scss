@@ -1,0 +1,53 @@
+.home {
+    .thoughts {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        padding: 60px;
+        
+
+        .thought {
+            width: 350px;
+            height: 350px;
+            background-color: rgba(196, 246, 196, 0.623);
+            border-radius: 50%;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            font-size: large;
+            font-weight: 500;
+            border: 2px solid rgba(158, 199, 158, 0.738);
+        }
+    }
+
+
+
+
+    .list-container {
+        margin: 70px 70px 0;
+        // padding: 20px;
+        .section-heading {
+            text-transform: capitalize;
+            text-align: center;
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+
+        
+        .list {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-wrap: wrap;
+            column-gap: 30px;
+            row-gap: 30px;
+            row-gap: 40px;
+            margin-top: 20px;
+            background-color: rgba(196, 246, 196, 0.263);
+ 
+        }
+
+    }
+}

@@ -1,0 +1,10 @@
+.collection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: rgba(196, 246, 196, 0.263);
+    flex-wrap: wrap;
+}

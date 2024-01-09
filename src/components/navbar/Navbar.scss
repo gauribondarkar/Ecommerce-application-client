@@ -1,0 +1,49 @@
+.navbar {
+    background-color: rgba(196, 246, 196, 0.623);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform:uppercase;
+
+    .nav-center{
+        .hover-link {
+            display: inline;
+            padding: 30px;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+
+    .nav-right {
+        display: flex;
+        column-gap: 20px;
+        .icon {
+            font-size: 1.7rem;
+        }
+        .search-box {
+            width: 350px;
+            height: 35px;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .searchbar {
+                width: 300px;
+                height: 35px;
+                border: none;
+            }
+
+            .searchbar:focus {
+                outline: none;
+            }
+        }
+
+        
+    }
+}
